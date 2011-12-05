@@ -1,0 +1,192 @@
+body 
+{
+	
+	font-family:"Arial Black";
+	font-size:large;
+	background-color:Silver;
+}
+
+#form-style
+{
+	font-family:"Arial Black";
+	font-size:large;
+	background-color:Silver;
+}
+
+form
+{
+	
+}
+
+div.img_bordered
+{
+	border:solid;
+	border-color:white;
+}
+.enter_answer
+{
+	font-size:xx-large;
+	width:450px;
+}
+.enter_speed
+{
+	font-size:xx-large;
+	width:380px;
+}
+.large_button
+{
+	font-size:x-large;
+	height:100px;
+	width: 100px;
+}
+
+.answer
+{
+	font-size:200px;
+}
+.answer_correct
+{
+	font-family:"Arial Narrow";
+	font-size:200px;
+	color: Green;
+}
+.answer_incorrect
+{
+	font-family:"Arial Narrow";
+	font-size:200px;
+	color:Red;
+}
+.answer_correct_phrase
+{
+	font-family:"Arial Narrow";
+	font-size:100px;
+	color: Green;
+}
+.answer_incorrect_phrase
+{
+	font-family:"Arial Narrow";
+	font-size:100px;
+	color:Red;
+}
+.answer_highlight
+{
+	font-size: 120px;
+	color: silver;
+}
+
+.menu
+{
+	font-size:200px;
+}
+
+.phrase
+{
+	width: 500px;
+	height: 500px;
+}
+.mode
+{
+	font-size: small;
+}
+#enter_speed
+{
+	width:10px;
+	font-size:xx-large;
+}
+
+.drag
+{
+	border: 1px solid black; 
+	background-color: rgb(240, 240, 240); 
+	position: relative; 
+	padding: 0.5em; 
+	margin: 0 0 0.5em 1.5em; 
+	cursor: move;
+}
+
+#wrapper 
+{
+	width:900px;
+	margin:0px auto;
+	border:0px solid #bbb;
+	padding:1px;
+}
+	
+#imgDisplay
+{
+	border:5px solid #bbb;
+	height:80px;
+	padding:1px;
+}
+
+#content 
+{
+	margin-top:1px;
+	padding-bottom:1px;
+}
+
+#content div 
+{
+	padding:1px;
+	border:0px solid #bbb;
+	float:left;
+}
+
+#content-left 
+{
+	width:180px;
+}
+	
+#content-main
+{
+	border:0px solid #bbb;
+	margin-left:10px;
+	width:300px;
+}
+
+#content-right 
+{
+	border:0px solid #bbb;
+	margin-left:300px;
+	width:134px;
+}
+
+#randAnswerDisplay
+{
+	border:0px solid #bbb;
+	height:80px;
+	padding:1px;
+}
+
+#randAnswerContent
+{
+	margin-top:10px;
+	padding-bottom:1px;
+}
+
+#randAnswerContent div
+{
+	padding:1px;
+	border:0px solid #bbb;
+	float:left;
+}
+
+#randAnswerContent-left
+{
+	border:5px solid #bbb;
+	width:100px;
+}
+
+#randAnswerContent-centre
+{
+	border:0px solid #bbb;
+	margin-left:100px;
+	width:100px;
+}
+
+#randAnswerContent-right
+{
+	border:0px solid #bbb;
+	margin-left:150px;
+	width:100px;
+}

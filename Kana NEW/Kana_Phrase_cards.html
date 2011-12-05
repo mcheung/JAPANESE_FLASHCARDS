@@ -1,0 +1,35 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+		<title>Kana Phrase Cards!</title>
+		
+		<script src="KANA_flash_cards.js" type="text/javascript"></script>
+		<link rel="stylesheet" href="Kana_Flash_cards.css" />
+	</head>
+	
+	<body>
+		<form class="form-style" id="flashCardsForm" name="flashCardsForm">
+			<div class="enter_answer">
+				Enter the Phrase in Romanji: <br />
+				<input 	class="enter_answer" type="text" id="entered_phrase" name="entered_phrase" 
+						onblur=checkAnswer() />
+			</div>
+		</form>
+		
+		<br />
+		<table>
+			<tr>
+				<td><div id="kanaPhrase" name="kanaPhrase"></div></td>
+				<td width="100px"></div></td>
+				<td><div id="answer" class="answer"><div></td>
+            	<td><div id="menu" class="menu"></div></td>
+            </tr>
+		</table>
+		
+		<br />
+		<br />
+		
+		Speed: <input class="enter_speed" type="text" id="speed" name="speed" value="4" /><br />
+	</body>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+		<title>Kana Flash Cards!</title>
+		
+		<script src="KANA_flash_cards.js" type="text/javascript"></script>
+		<script src="Japanese_Lib.js" type="text/javascript"></script>
+		<script src="DragAndDrop.js" type="text/javascript"></script>
+		<!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js"></script>-->
+		<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
+  		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+  		<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+  
+		<script type="text/javascript" src="../Prototype/lib/prototype/prototype.js"></script>
+		<script type="text/javascript" src="../Prototype/lib/scriptaculous/scriptaculous.js"></script>
+		<script type="text/javascript" src="../Prototype/lib/scriptaculous/effects.js"></script>		
+		<script type="text/javascript" src="Effects.js"></script>
+		<link rel="stylesheet" href="Kana_Flash_cards.css" />
+	</head>
+	
+	<body>
+		<form class="form-style" id="flashCardsForm" name="flashCardsForm">
+			<div id="wrapper">
+				<div id="content-main">
+					<div class="mode" id="mode" name="mode">
+						Mode:
+						Single<input type="radio" name="mode" value="single">
+						Phrase<input type="radio" name="mode" value="phrase">
+					</div>
+				</div>
+			</div>
+			<div id="wrapper">
+				<div id="content-main">
+					<div id="txt_enter_answer" name="txt_enter_answer" class="enter_answer">
+					<!--Enter the Kana: -->
+						Drop the Kana on the English<br />
+						<input 	class="enter_answer" type="text" id="entered_answer" name="entered_answer" /> 
+						<!--onblur=checkAnswer() /> -->
+					</div>
+				</div>
+			</div>
+		</form>
+		
+		<br />
+		
+		<div id="wrapper">
+		<!--<div id="imgDisplay">-->
+			<div id="content">
+				<div id="content-main">
+					<div id="phraseKana" name="phraseKana"></div>
+					<div id="imgKana" name="imgKana"></div>
+				</div>
+				<div id="content-right">
+					<div id="answer" class="answer"><div>
+				</div>
+			</div>
+		<!--</div>-->
+		</div>
+		
+		
+		<!--<table>
+			<tr>
+				<td><div id="phraseKana" name="phraseKana"></div></td>
+				<td><div id="imgKana" name="imgKana"></div></td>
+				<td><div width="100px"></div></td>
+				<td><div id="answer" class="answer"><div></td>
+            	<td><div id="menu" class="menu"></div></td>
+            </tr>
+			<tr><!-- id="trKanaText" name="trKanaText">-->
+				<!--<span id="spanKanaText" name="spanKanaText"></span>-->
+				<!--<td><div id="kanaText" name="kanaText" ></div></td></tr>-->
+				
+			
+			
+			<!--<tr>
+				<td><div id="info" style="background-color:#f0f0ff; font-weight:bold;">INFO</div></td>
+			</tr>-->
+		<!--</table>-->
+		
+		<div id="wrapper">
+		<!--<div id="randAnswerDisplay">
+			<div id="randAnswerContent">-->
+				<div id="randAnswerContent-left">
+					<div class="enter_answer" id="randAnswer_1">randAnswer_1</div>
+				</div>
+				<div id="randAnswerContent-centre">
+					<div class="enter_answer" id="randAnswer_2">randAnswer_2</div>
+				</div>
+				<div id="randAnswerContent-right">
+					<div class="enter_answer" id="randAnswer_3">randAnswer_3</div>
+				</div>
+			<!--</div>
+			</div>-->
+		</div>
+		
+		<!--<table width="100%" border="2" bgcolor="white">
+			<tr>
+				<td width=100px bordercolor="white"><div class="enter_answer" id="randAnswer_1">randAnswer_1</div></td>
+				<td width=100px bordercolor="white"><div class="enter_answer" id="randAnswer_2">randAnswer_2</div></td>
+				<td width=100px bordercolor="white"><div class="enter_answer" id="randAnswer_3">randAnswer_3</div></td>
+			</tr>
+			</table>
+		-->
+		<br />
+		<br />
+		
+		<!--Speed: <input class="enter_speed" type="text" id="speed" name="speed" value="4" /><br />-->
+	
+	</body>
+</html>
